@@ -1,0 +1,292 @@
+
+===== PAGE 1/7 =====
+🎬
+THE CONFRONTATION CLIP —
+Final Technical Handover
+Single-source execution document for THE CONFRONTATION CLIP. All files,
+parameters, cell sequence, fallbacks, and open items consolidated. Deep
+reference remains in the canonical spec page.
+1. Files & Artifacts
+Sandbox files ( /data/ )
+Path
+Size
+fileUri
+Purpose
+/data/kaggle_v5_echomimic.ipynb
+27,993 B
+file-498
+v5.1 preflight-
+audited notebook
+— 13 cells —
+upload to Kaggle
+/data/WAKE_UP_RUNBOOK.md
+~5 KB
+file-499
+One-page
+execution
+runbook
+(prerequisites,
+steps, fallbacks)
+/data/faces.zip
+82,003 B
+file-445
+Face reference
+bundle
+/data/refs/jack_preface.jpg
+32,910 B
+—
+Preface-Jack
+reference
+(454×676)
+/data/refs/joker.png
+21,429 B
+—
+Joker reference
+(367×544)
+/data/refs/julie.jpg
+27,337 B
+—
+Julie reference
+(474×647)
+THE CONFRONTATION CLIP — Final Technical Handover
+1
+
+===== PAGE 2/7 =====
+Path
+Size
+fileUri
+Purpose
+/data/apply_fixes.py
+—
+—
+Patch script (Cell
+9 comment + Cell
+12 drawtext
+fontfile)
+/data/make_v5_ipynb.py
+25,358 B
+—
+Original notebook
+builder
+/data/kaggle_current.ipynb
+—
+—
+v4 predecessor
+(superseded —
+do not use)
+Missing but non-blocking (has fallback):
+/data/jack_preface_ledger.jpg — Cell 6
+falls back to jack_preface.jpg if absent.
+Notion pages
+Page
+UUID
+Purpose
+THE CONFRONTATION CLIP — Build
+Spec & Render Handover
+0a222d17-08fc-432d-9c79-
+a2c89fdbc009
+Canonical spec (full
+detail)
+THE CONFRONTATION — Shooting
+Script (Final)
+164bfd42-9d3b-492f-93ce-
+e5e5eb895801
+Beat-by-beat script
+HEATH LEDGER — The Investigation.
+Every Beat.
+b9648ed9-3a9c-44e7-8437-
+acdf45e87245
+Deferred backlog
+FRONTLINE LANGUAGE — YouTube
+Short (Backlog)
+0b11cc30-549d-449c-937f-
+a8ae336b1592
+Deferred backlog
+User-authored artifacts (tonight)
+Letter to Julie, sentence 1 (12:26 AM): "When you meet a stranger, you don't
+dodge. You act straight. Be you."
+Letter to Julie, sentence 2 (12:29 AM): "There was a filter between me and
+you. It was older than my words. It is why you could never find me even when
+we were in the same room. I did not choose it. I lived it. And it made a free fall
+of both our lives."
+2. Environment Prerequisites
+THE CONFRONTATION CLIP — Final Technical Handover
+2
+
+===== PAGE 3/7 =====
+Kaggle account 2 (fresh weekly GPU quota)
+Session type: T4×2 (2× NVIDIA T4, 16 GB VRAM each)
+Python 3.10+
+HuggingFace token with access to BadToBest/EchoMimicV3 — accept license first
+at https://huggingface.co/BadToBest/EchoMimicV3
+Total model download: ~12 GB
+Total runtime end-to-end: ~2 hours
+3. Execution Sequence
+Run cells 0 → 12 in order.
+#
+Cell purpose
+Expected
+duration
+0
+Markdown intro (v5.1 preflight-audited)
+—
+1
+Env check (torch/CUDA)
+30 s
+2
+pip install deps
+5–8 min
+3
+git clone antgroup/echomimic_v3
+30 s
+4
+snapshot_download — 3 models (~12 GB)
+15–25 min
+5
+Symlink transformer safetensors
+5 s
+6
+Face crops → /kaggle/working/refs_face/
+(TARGET=512)
+30 s
+7
+Kokoro voices + BEATS_SPOKEN (17)
+3–5 min
+8
+Pipeline load (bfloat16, mmgp 85% VRAM)
+2 min
+9
+Define run_shot • test → beat_01_test.mp4
+4–6 min
+10
+FULL 21-shot dispatch (17 talk + 4 silence)
+90–120 min
+11
+ffmpeg concat → stitch.mp4 (optional score mix @
+vol 0.22)
+1 min
+12
+Dedication card 4 s →
+THE_CONFRONTATION_CLIP_v2_dedicated.mp4
+30 s
+THE CONFRONTATION CLIP — Final Technical Handover
+3
+
+===== PAGE 4/7 =====
+Verify after Cell 9 before running Cell 10 (the long one). If test shot looks correct,
+dispatch full batch.
+4. Key Constants (Cell 8)
+SAMPLE_SIZE = [512, 512]
+FPS         = 25
+PARTIAL_LEN = 49
+OVERLAP_LEN = 8
+SHIFT       = 5.0
+GS          = 4.5
+AGS         = 2.5
+STEPS       = 15
+SEED        = 43
+5. Voice Mapping (Kokoro TTS — Cell 7)
+Character
+Voice
+jack_pre
+am_michael
+joker
+am_adam
+julie
+af_bella
+6. Beat Order (Cell 10 dispatch)
+beat_00 — silence 3.0 s (jack_pre)
+beat_01 → beat_09 — talk (9 shots)
+beat_09b — silence 1.5 s (julie)
+beat_10 → beat_15 — talk (6 shots)
+beat_15b — silence 2.0 s (jack_pre)
+beat_16 → beat_17 — talk (2 shots)
+beat_end — silence 3.0 s (jack_pre)
+THE CONFRONTATION CLIP — Final Technical Handover
+4
+
+===== PAGE 5/7 =====
+Total: 21 clips. Each shot writes beat_XX.mp4 to /kaggle/working/shots/ .
+7. Model Paths (Cell 4)
+Repo
+Size
+Role
+BadToBest/EchoMimicV3
+~7 GB
+Main audio-driven face
+pipeline
+alibaba-pai/Wan2.1-Fun-V1.1-1.3B-
+InP
+~5 GB
+Inpaint base
+facebook/wav2vec2-base-960h
+~360 MB
+Audio embedding
+8. Fallback Table
+Failure
+Fix
+HuggingFace 401 on model
+download
+Verify HF_TOKEN env var. Accept license at
+huggingface.co/BadToBest/EchoMimicV3 .
+CUDA OOM on T4
+Reduce PARTIAL_LEN 49→33, OR SAMPLE_SIZE 512→448,
+OR split beats across two sessions.
+Face crop fails
+Cell 6 falls back to un-cropped 512 image.
+jack_preface_ledger.jpg
+missing
+Cell 6 falls back to jack_preface.jpg (already in place).
+wav2vec2 load fails
+Re-download; verify size ~360 MB.
+Kokoro voice missing
+Default to am_michael for all beats.
+Cell 10 crashes mid-batch
+Each beat writes independently; resume from last
+successful beat_XX.mp4 .
+Final concat (Cell 11) fails
+Run ffmpeg -f concat -safe 0 -i list.txt -c copy
+stitch.mp4 manually.
+Dedication drawtext (Cell 12)
+fails
+Skip Cell 12; use stitch.mp4 as final deliverable.
+9. Final Output
+/kaggle/working/THE_CONFRONTATION_CLIP_v2_dedicated.mp4
+THE CONFRONTATION CLIP — Final Technical Handover
+5
+
+===== PAGE 6/7 =====
+Download to local machine after Cell 12 completes. Backup stitch.mp4 as well.
+10. Backlog (deferred — not required for tonight's
+render)
+Wan2.2 5B I2V motion upgrade
+Real-ESRGAN upscale pass
+SFX layer
+Finale tail extension
+Indo-Western violin score pass — composer reference list: Rahman (Bombay
+Theme, Latika's Theme, Tere Bina, Vande Mataram, Zikr), L. Subramaniam,
+Ilaiyaraaja, Nitin Sawhney (Prophesy, Nadia, Homelands), Anoushka Shankar,
+Karsh Kale, Talvin Singh
+5 Suno prompts for original score generation
+Fourth-face voiceover recording (own voice, phone, dry, one take)
+Letter to Julie — completion in own hand (2 sentences already captured
+above)
+LinkedIn "Same Hands" post publication
+Young-Ledger reference photo upload ( /data/jack_preface_ledger.jpg )
+Deep Ledger investigation page development
+E2E sales email CRN 40451
+11. Open Practical Questions (unanswered)
+Food horizon
+Kaggle account 2 GPU hours remaining this week
+Payment rails for eventual sales / distribution
+Bridge cash source
+THE CONFRONTATION CLIP — Final Technical Handover
+6
+
+===== PAGE 7/7 =====
+12. One-line summary
+Upload kaggle_v5_echomimic.ipynb (v5.1) to Kaggle account 2 with T4×2 → run cells
+0–12 in order → verify at Cell 9 test shot → dispatch Cell 10 full batch → stitch +
+dedication → download THE_CONFRONTATION_CLIP_v2_dedicated.mp4 .
+THE CONFRONTATION CLIP — Final Technical Handover
+7

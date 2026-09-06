@@ -1,0 +1,149 @@
+
+===== PAGE 1/3 =====
+🎞️
+GODSHAND Demo Film — “THE
+BEHOLDER'S TRUCE” (micro-memoir,
+~30 min render)
+🎞️Your first job after the current run finishes. A tiny, self-contained proof film built
+from the anchors you already have — 3–4 shots, ~30 minutes of render. This
+becomes the clip that sells the kit and headlines every post. No new film. Just this.
+Logline
+At the end of a long road, a weary man of forty-seven meets the angel who has walked every
+mile beside him — and finds his truce. A wordless 30-second memoir, distilled from The Saga
+of the Beholder (Chapter V — The Beholder's Truce).
+Why this works as a demo
+It's short enough to actually finish — 3–4 shots, one render session.
+It proves the hard stuff in 30 seconds: a consistent human face, a second consistent
+character, a real film grade, and an emotional hold (not just a moving filter).
+It's emotional, not technical — buyers feel it before they analyze it. That feeling is what
+sells.
+It uses only what you already have:
+man_anchor.png (the man) and woman_anchor.png (the
+angel), current engine, current grade.
+The film (shot list)
+#
+Anchor
+What we see
+Motion
+~Len
+What it shows
+off
+1
+Man
+Wide: a lone
+figure on an
+empty desert
+road at dusk,
+long shadow,
+drifting dust
+Slow push-in,
+heat shimmer
+4s
+Environment +
+motion + warm
+Kodachrome
+grade
+GODSHAND Demo Film — “THE BEHOLDER'S TRUCE” (micro-memoir, ~30 min render)
+1
+
+===== PAGE 2/3 =====
+#
+Anchor
+What we see
+Motion
+~Len
+What it shows
+off
+2
+Man
+Extreme close-
+up: the
+weathered 47-
+year-old face,
+dust on skin, a
+slow blink and
+breath
+Micro head-
+turn, eyes
+settle toward
+camera
+5s
+Face
+consistency +
+skin detail +
+film grain —
+the shot that
+silences AI
+skeptics
+3
+Angel
+Backlit figure of
+the angel in
+soft haze, light
+blooming
+around her
+Gentle drift
+forward,
+hair/cloth
+motion
+4s
+Second
+consistent
+character •
+halation/bloom
++ ethereal
+grade
+4
+Man
+The man lifts
+his eyes; a faint
+exhale of
+acceptance as
+warm light
+breaks over
+him
+Slow tilt up,
+lighting shift
+5s
+Emotional hold
++ a real lighting
+change (proves
+it's rendered,
+not filtered)
+5 (optional)
+Man
+Final wide: he
+walks on,
+smaller in
+frame; title
+fades in
+Locked / slow
+drift
+4s
+Closes the arc;
+carries the title
+card
+Grade & sound
+Grade: your current look — Kodachrome warmth, halation on the highlights, fine film grain,
+slightly desaturated shadows. Don't change the pipeline; the demo should look exactly like
+what buyers will get.
+Sound: silence + wind, and a single held piano note under shots 3–4. Let the image
+breathe.
+Title card: THE BEHOLDER'S TRUCE — then small: rendered entirely on a free GPU.
+Render budget
+Core film = 4 shots × ~8–9 min ≈ 32 min. That's your ~30-minute target.
+Shot 5 is optional (+~8 min) if quota allows.
+GODSHAND Demo Film — “THE BEHOLDER'S TRUCE” (micro-memoir, ~30 min render)
+2
+
+===== PAGE 3/3 =====
+Edit + grade assembly afterward is minutes, not hours — the grade is already baked per
+shot.
+How it plugs into the current setup
+Uses the existing anchors and the notebook you already have (streaming grade fix baked
+in).
+Render each shot as its own short clip, then stitch in any editor (or the kit's stitch step).
+The moment it's exported: it's your proof asset (listing) and the raw material for the
+walkthrough's before/after and the 60–90s sales cut.
+GODSHAND Demo Film — “THE BEHOLDER'S TRUCE” (micro-memoir, ~30 min render)
+3

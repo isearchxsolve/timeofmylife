@@ -1,0 +1,171 @@
+
+===== PAGE 1/5 =====
+💰
+Money Plan — Phase 1 (Content)
+→ Phase 2 (Kit & Projects)
+🎯Sell the cake before the recipe: earn quick cash from finished videos in
+one niche → hit a defined breakeven → freeze, finalize the kit → sell the
+kit and other projects. Convergence runs passively the whole time.
+Phase 1 — Sell content (quick money)
+Sell a productized service in ONE niche that plays to the kit's strengths (music +
+voiceover + atmosphere), not generic clips.
+Pick the niche
+Fit
+Why
+Verdict
+Music videos / lyric videos for indie
+artists
+Music + VO driven — exactly the
+kit's strength
+Best
+Short cinematic ads / brand films
+(small businesses)
+Mood-led, VO narration, no lip-
+sync exposure
+Strong
+Faceless "cinematic short story"
+content for creators
+Good fit but slower to monetize
+Backup
+Dialogue-heavy / talking-head
+content
+Exposes the lip-sync weakness
+Avoid
+Lead with mood, not mouths. Anything music- or narration-driven hides the lip-
+sync limit and shows the kit at its best.
+Gig listing template (fixed price + turnaround)
+Money Plan — Phase 1 (Content) → Phase 2 (Kit & Projects)
+1
+
+===== PAGE 2/5 =====
+Cinematic AI Video — 60 to 90 seconds
+- You bring: a short brief (story/mood) + optional reference images
+- You get: a fully rendered cinematic clip with music + AI voiceover
+- Price: ₹X flat
+- Delivery: 3 days
+- Revisions: 1 included
+List on: Fiverr, Upwork, Topmate, plus the India channels already scouted (AI
+Video Generators Telegram, Indian AI Production, the AI-for-India Discord). Fixed
+price + turnaround = faster yes.
+Throughput reality
+About 8–12 finished two-minute videos per week on a free Kaggle account (30
+GPU-hrs/week). Drop to single takes to nearly double it. That is enough for a
+handful of client gigs per week — plenty for survival income, not mass stock.
+Breakeven — the trigger to start Phase 2
+Item
+Amount
+Core monthly cost (Google AI Pro)
+~₹1,950 / mo
+Other hard costs
+~0 (Kaggle free)
+Breakeven target
+~3–5 paid gigs
+Breakeven is low, so Phase 2 is close. Write the number down: once you clear
+roughly 3–5 gigs (or your chosen rupee figure), that is the signal to flip.
+Phase 2 — Sell the kit + other projects
+After breakeven, launch the products. Prerequisite: the kit must be buyer-simple
+first (see freeze rule).
+Product
+Price
+Status
+GODSHAND kit
+(set at launch)
+Needs 2 bakes + Creator Guide (guide done)
+Convergence
+₹499
+Sellable now — run passively in parallel
+SafeScreen
+₹1,999
+Cleanest B2B; make demo-ready
+Solana project
+₹2,499
+Sellable (secrets removed)
+Money Plan — Phase 1 (Content) → Phase 2 (Kit & Projects)
+2
+
+===== PAGE 3/5 =====
+Do NOT sell api_money_bot.
+Parallel track (start now)
+List Convergence at ₹499 immediately. It is software, already sellable, and does
+not compete for the same hours as content gigs — it earns quietly in the
+background while you do Phase 1.
+The freeze rule (the one trap)
+Content-service work can eat 100% of your time so the kit never ships. Once you
+hit breakeven, freeze new content intake and finish the kit's two bakes: auto shot-
+count (so buyers only edit YAML) and the voice last-mile wire in render_motion.py.
+The Creator Guide is already written. Then Phase 2 launches clean.
+Feedback loop
+Every Phase-1 deliverable (with client permission) becomes a portfolio piece. That
+reel + testimonials is the marketing that sells the Phase-2 kit. The two phases feed
+each other.
+Runway at a glance
+1. Pick the niche (music/lyric videos or cinematic ads).
+2. Post the fixed-price gig on Fiverr/Upwork/Topmate + India channels.
+3. List Convergence ₹499 passively — today.
+4. Deliver gigs; save each as a portfolio piece.
+5. Hit breakeven (~3–5 gigs) → freeze intake.
+6. Finish the kit's 2 bakes → launch kit + SafeScreen + Solana.
+First rupee — when (honest)
+The bottleneck is no longer compute — it's outreach. The kit already works on the
+single-character path, so a sellable sample does not wait on any test.
+Money Plan — Phase 1 (Content) → Phase 2 (Kit & Projects)
+3
+
+===== PAGE 4/5 =====
+Sample ready: ~1 day. Render one portfolio clip on the proven path. Launch it
+as a Save Version → Commit so power cuts don't block it (it runs on Kaggle's
+servers, not your machine).
+First paid rupee: a few days to ~1 week after the sample exists — driven by
+daily warm DMs, not by rendering.
+Convergence ₹499: listable today; a same-day-possible wildcard with
+unproven demand.
+What parallel rendering does / doesn't do: two commits finish two clips at
+once (throughput for volume + the reel series), but a single clip does NOT
+render faster — so it helps after the first sale, not before it. The weekly ceiling
+stays ~30 GPU-hrs no matter how many T4s.
+Buyers & Channels (where to sell)
+Start here (fastest to first rupee)
+1. Indie musicians needing lyric/music videos — they bring the song, you bring
+visuals (sidesteps the MusicGen ceiling). Real budgets posted (an artist openly
+offered ~$2,000).
+2. Fiverr AI Video category — 7,100+ live listings, buyers searching daily.
+3. Upwork AI-generated-video jobs — 4,121 open jobs, first proposal often within
+~3 hrs.
+Indie musicians (best-fit niche)
+Reddit: r/WeAreTheMusicMakers, r/musicians, r/indieheads, r/SunoAI, 
+r/musicvideo, r/MusicIndia
+Discord via Disboard tags: indie-music, indie-artist, music-collaboration.
+Servers: Artist Create (1,262), FUSETHISUPP
+Higher-end: Creative Commission (labels/managers)
+Small business & local (ads / reels)
+Local-business retainers (~$499/mo AI-video model, walkthrough)
+Money Plan — Phase 1 (Content) → Phase 2 (Kit & Projects)
+4
+
+===== PAGE 5/5 =====
+Indian real estate agents = heaviest reel buyers: Top 50 list, Top 20. Undercut
+local shoot rates (Flashoot ~₹1,999/reel) by delivering remotely.
+Freelance marketplaces
+Fiverr, Upwork, ZipRecruiter ($24–96/hr), Freelancer.com. Proof: someone
+already sells Veo videos for hire.
+Faceless YouTube creators (sell footage, not monetization)
+r/aitubers, r/NewTubers, r/FacelessAICreators. Caveat: YouTube is
+suppressing faceless AI content — sell B-roll as a service, never promise
+monetization.
+India channels
+Telegram: Indian Media Jobs, AI Video Generators (t.me/VideoGenerator),
+Indian AI Production (t.me/IndianAIProduction)
+Reddit: r/FreelanceIndia; Discord: Indian AI Production
+(discord.gg/7eg8wPhxwY), AI Forum for India
+Stock / licensing (passive, slower)
+Wirestock, Pond5, Adobe Stock, Vecteezy. AI-content acceptance and
+payouts vary — passive backfill only.
+Rules
+Warm DMs (someone who just posted "need a video") convert faster than cold
+marketplace gigs.
+Win on cinematic quality + the music/mood niche — do not race the $16–25/hr
+sellers to the bottom.
+Lead with one portfolio clip; every channel converts better with a sample in
+hand.
+Money Plan — Phase 1 (Content) → Phase 2 (Kit & Projects)
+5

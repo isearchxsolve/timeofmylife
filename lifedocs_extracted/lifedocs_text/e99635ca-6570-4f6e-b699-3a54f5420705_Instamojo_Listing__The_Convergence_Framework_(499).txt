@@ -1,0 +1,85 @@
+
+===== PAGE 1/3 =====
+🎯
+Instamojo Listing — The
+Convergence Framework (₹499)
+⚡This is your fastest path to the first rupee. Everything below is copy-
+paste ready. The only work left: confirm the file contents once, then
+publish.
+The essentials
+Field
+Value
+Product name
+The Convergence Framework — Define the Right Objective Before You
+Write Code
+Price
+₹499
+Format
+Digital download (single ZIP)
+Category
+Developer / AI engineering resource
+Support
+None promised — sold as a complete, self-contained kit
+Payout
+Instamojo → your bank (KYC already done)
+Listing description (paste into Instamojo)
+Stop shipping perfect code that solves the wrong problem.
+Most AI systems, bots, and agents fail not because the code is buggy — but
+because nobody wrote down what "success" actually means. Zero bugs proves
+your code does what it says. It does not prove that what it says achieves your
+goal.
+Instamojo Listing — The Convergence Framework (₹499)
+1
+
+===== PAGE 2/3 =====
+The Convergence Framework is a battle-tested method for defining the 
+objective function of any decision-making system — a trading bot, a classifier, a
+ranker, an agent, an allocator — before you write a line of code, so you
+converge on the right result instead of a rigorous, correct, useless one.
+What you get:
+- 📄 Convergence Under Constraint — the core framework (PDF)
+- 🧭 The step-by-step Objective Function guide (Phase F + Steps 0–8)
+- 🤖 A ready-to-use deterministic-convergence system prompt for your LLM
+- 🔍 An AI code-review prompt that checks against the objective, not just
+syntax
+- 📈 A fully worked applied example (trading-bot objective function, v3)
+- 📦 The complete kit, zipped and ready to use
+Who it's for: AI engineers, prompt engineers, and indie builders who are tired
+of systems that optimize the wrong thing. If your spec ever said "make it good"
+without a measurable goal, this is for you.
+The honest part: one of the framework's own rules is to stop and say "not
+formalizable" when a goal can't be reduced to a measurable function. This kit
+teaches you to find that out in an hour — not after three months of building.
+Instant download. Complete as-is. No fluff.
+What's inside the ZIP
+Convergence_Under_Constraint.pdf — the core essay/framework
+README_objective_function.md — the full step-by-step guide (Phase F automation
++ manual Steps 0–8)
+SystemPrompt_Code_Convergence_Deterministic.md — drop-in LLM system prompt
+AI_Code_Review_Prompt_v2.md — objective-aware code review prompt
+Instamojo Listing — The Convergence Framework (₹499)
+2
+
+===== PAGE 3/3 =====
+Trading_Bot_Convergence_Framework_v3.md + Trading_Bot_System_Updated.md — worked
+applied example
+ConvergenceFramework_Kit.zip / ConvergenceFramework_ALL.zip — the packaged kit
+guide.txt — quick-start notes
+Short pitch post (for X / LinkedIn / Reddit)
+Your AI agent isn't broken. Your objective function is.
+Zero bugs proves the code does what it says — not that what it says is what
+you want. I packaged a framework for writing the right objective before you
+build: for bots, classifiers, agents, allocators.
+Includes the PDF, the step-by-step guide, a deterministic system prompt, and a
+worked trading-bot example. ₹499, instant download 👇
+Pre-publish checklist
+Open the ZIP once and confirm all files listed above are present
+Upload single ZIP to Instamojo as a digital product
+Set price ₹499, title + description above
+Add a cover image (the PDF's first page works)
+Publish → grab the payment link → post the pitch
+Bank the first rupee. Then raise the price.}
+Scanned for secrets — none found (this one is clean, unlike
+crypto/god_ai/video)
+Instamojo Listing — The Convergence Framework (₹499)
+3

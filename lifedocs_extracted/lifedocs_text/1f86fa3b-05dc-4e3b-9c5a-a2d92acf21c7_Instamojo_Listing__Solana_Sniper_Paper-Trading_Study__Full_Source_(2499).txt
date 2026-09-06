@@ -1,0 +1,94 @@
+
+===== PAGE 1/3 =====
+📈
+Instamojo Listing — Solana
+Sniper: Paper-Trading Study +
+Full Source (₹2,499)
+⚠️DO NOT PUBLISH until you redact secrets. This project currently ships
+with .env , .env1 , and gmgn_keys/gmgn_private.pem . Delete them, rotate the
+key, add a .gitignore , and include a .env.example instead. See the
+checklist at the bottom.
+The essentials
+Field
+Value
+Product name
+Solana Memecoin Sniper — 6-Month Paper-Trading Study + Hardened
+Architecture + Full Source
+Price
+₹2,499
+Format
+Digital download (single ZIP, secrets redacted)
+Category
+Developer / trading systems / research
+Support
+None promised — sold as source + study, as-is
+Payout
+Instamojo → your bank (KYC done)
+The honest positioning (read this first)
+You are not selling "a bot that makes money." That framing invites furious buyers
+and legal risk you cannot carry. You are selling something more defensible and, to
+the right buyer, more valuable: a serious, six-month engineering study with the
+full working source. The honesty is the product.
+Instamojo Listing — Solana Sniper: Paper-Trading Study + Full Source (₹2,499)
+1
+
+===== PAGE 2/3 =====
+Listing description (paste into Instamojo)
+A real Solana sniper, paper-traded for 6 months — with an honest risk
+analysis most "trading bots" will never show you.
+This is the complete source and research behind a hybrid Solana memecoin
+sniper: WebSocket/RPC ingestion, an ML signal layer, a real risk-management
+module, a React + TypeScript dashboard, TDD-hardened risk policy, and
+systemd services for unattended running.
+What makes this different: it tells you the truth. Included is a full 
+REAL_WORLD_RISK_ANALYSIS — a 50-run Monte Carlo simulation modeling rugs, MEV
+sandwiches, latency misses, transaction failures, and slippage. It reports
+simulated median win rates of 95–98% and openly documents what is not yet
+proven: live ML accuracy is unverified, Jito bundle support is incomplete, and
+no result is a guarantee.
+What you get:
+- 🧠 Full source: solana_hybrid_sniper_ultra core + ML module + risk manager
+- 💻 React + TypeScript client and server, with a TDD-hardened risk policy and
+tests
+- 📈 The complete 6-month risk study (Monte Carlo methodology + results)
+- 📄 Architecture + technical presentation docs
+- ⚙️ systemd services + run scripts for unattended operation
+Who it's for: Solana devs and quant-curious engineers who want a real,
+documented sniper architecture to study, extend, and validate themselves —
+not a black box.
+Plain terms: This is source code and research, sold as-is. Paper-tested only;
+not live-validated. Nothing here is financial advice or a profit guarantee. You run
+it at your own risk, with your own wallet, after your own validation.
+What's inside the ZIP (after redaction)
+Instamojo Listing — Solana Sniper: Paper-Trading Study + Full Source (₹2,499)
+2
+
+===== PAGE 3/3 =====
+solana_hybrid_sniper_ultra/ — core sniper, ml/ , utils/risk_manager.py
+client/ — React + Vite dashboard
+server/ — TypeScript engine, risk-policy.ts + tests
+data/REAL_WORLD_RISK_ANALYSIS.md — the Monte Carlo study
+Architecture docs (technical presentation, moonshot architecture,
+convergence framework v3)
+.trae/specs/ — TDD hardening specs
+systemd/ + run scripts
+.env.example — replaces the real .env /keys you removed
+Short pitch post (for X / Reddit r/solana, r/algotrading)
+Most "trading bots" for sale hide their losses. This one ships the loss analysis.
+Full source of a Solana memecoin sniper + a 6-month paper-trading study: 50-
+run Monte Carlo modeling rugs, MEV, latency, slippage. Simulated 95–98% win
+rate — and an honest list of what's NOT yet proven.
+Study it, extend it, validate it yourself. ₹2,499, full source 👇
+⚠️ Pre-publish checklist (SECURITY FIRST)
+Delete
+.env , .env1 , and gmgn_keys/gmgn_private.pem from the folder
+Rotate the exposed wallet key + any API keys (assume they are burned)
+Add a .gitignore covering .env* , *.pem , gmgn_keys/ , logs/
+Add a clean .env.example with variable names only, no values
+Re-zip the cleaned folder; open the new ZIP and grep for PRIVATE , SECRET , .pem
+to confirm nothing leaked
+Write a short README with the honest disclaimer above at the top
+Upload to Instamojo, price ₹2,499, paste title + description
+Publish → grab link → post the pitch
+Instamojo Listing — Solana Sniper: Paper-Trading Study + Full Source (₹2,499)
+3

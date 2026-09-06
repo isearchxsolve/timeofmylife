@@ -1,0 +1,308 @@
+
+===== PAGE 1/8 =====
+🫥
+Scene — "The Cold Down the
+Spine" (No Witness)
+🫥The horror here is not blood — it's atmosphere. Kindness worn as a
+mask. Danger in full daylight. Empty roads, a distant siren, no one to
+witness. That restraint is what makes it hit hard and look premium.
+Logline
+A bright, silent afternoon on a deserted road. A lone figure. Strangers approach
+wearing warm, easy smiles — and something in the air goes cold. They come
+close, they take what they came for, and they leave without a word, without a
+promise, without ever looking back. The warmth was the weapon.
+Master scene prompt (for Flow / Veo)
+Cinematic thriller, harsh midday sun, a silent empty small-town road like a
+desert — not a soul in sight. A lone figure stands still. From the shimmering
+heat-haze, two or three strangers approach unhurried, wearing warm friendly
+smiles that never reach their eyes. The light is bright but the mood is ice. A faint
+distant siren wails somewhere far off, unanswered. The strangers draw close,
+calm and pleasant, then the warmth curdles — a flicker of something cold and
+predatory beneath the smile. Muted bleached color palette, deep shadows
+under a white sky, 35mm anamorphic, shallow depth of field, unsettling
+stillness. Static locked-off camera — no zoom, no push-in, no camera
+movement whatsoever. No dialogue. Dread in broad daylight.
+⚠️Zoomie fix: the anti-zoom instruction is now built into this master
+prompt, so it applies to every shot you generate. If one still zooms, add 
+Scene — "The Cold Down the Spine" (No Witness)
+1
+
+===== PAGE 2/8 =====
+“static shot, no zoom” to that shot's line and delete words like “push-in,”
+“handheld,” “toward camera,” “closing in.”
+🔥 WARM SET (Act 1) — shoot this first
+🔥This is the seduction — pure warmth, nothing wrong yet. Shoot this
+whole set first, then reuse the EXACT same framing for the cold turn
+(Act 2): same smiles held a beat too long, light drained white, eyes gone
+flat. Same setup, temperature stolen. That contrast is the whole film.
+Warm-set master prompt (Flow / Veo):
+Cinematic, warm golden afternoon light on a quiet small-town road, soft haze,
+calm and inviting. A lone tired man stands in the open. Two or three friendly
+strangers approach unhurried out of the shimmering light, wearing genuine
+warm smiles, relaxed, hands open and welcoming. The whole frame feels safe,
+sunlit, almost tender — nothing wrong yet, only warmth. Muted warm honey
+palette, soft shadows, 35mm anamorphic, shallow depth of field. Static locked-
+off camera — no zoom, no push-in, no camera movement whatsoever. No
+dialogue. The calm before anything turns.
+Short style tag — paste THIS with each shot:
+Warm golden small-town road, honey afternoon light, friendly relaxed strangers
+with genuine smiles, safe and inviting, static locked camera, no zoom.
+#
+Shot (size +
+angle)
+Prompt (style tag + this line)
+1
+Establishing, wide
+Wide static shot of a sunlit small-town road bathed
+in warm gold, soft haze, one lone figure standing
+calm, everything safe and inviting
+2
+The figure,
+medium
+Medium shot of the lone man relaxed, squinting
+softly into the warm light, guard fully down, at ease
+3
+The friendly
+approach
+Two or three strangers walking up the road
+unhurried, open relaxed body language, genuine
+Scene — "The Cold Down the Spine" (No Witness)
+2
+
+===== PAGE 3/8 =====
+#
+Shot (size +
+angle)
+Prompt (style tag + this line)
+warm smiles, a friendly wave
+4
+The welcome,
+two-shot
+Medium two-shot, a stranger close to the man,
+warm disarming smile, offering an open hand, the
+moment feels kind and safe
+5
+The held smile,
+close-up
+Close-up on the warmest, most genuine smile —
+disarming and human — the last calm frame before
+the turn
+🔄The cold turn (Act 2): reshoot shots 3–5 with the style tag swapped to 
+"harsh white midday light, the same smiles held a beat too long, eyes flat
+and cold, the warmth curdling, static locked camera, no zoom" — same
+setup, temperature drained. Nothing changes but the cold behind the
+smile.
+❄️ COLD SET (Act 2) — the turn
+❄️Same road, same faces, same framing as the warm set — you just drain
+the warmth. Shoot these with the SAME lone man and strangers
+characters already saved in Flow, so the faces match Act 1 exactly. That
+match is the whole trick: it's the same people, turned cold.
+Cold-set master prompt (Flow / Veo):
+Cinematic thriller, harsh white midday sun bleaching a silent empty small-town
+road, deep hard shadows, the air gone cold despite the heat. The same lone
+man, the same strangers — but now the warm smiles hold a beat too long, the
+eyes flatten, something cold and predatory surfaces beneath the friendliness. A
+faint distant siren wails, unanswered. Muted bleached palette, white sky, 35mm
+anamorphic, shallow depth of field, unsettling stillness. Static locked-off
+camera — no zoom, no push-in, no camera movement whatsoever. No
+dialogue. Dread in broad daylight.
+Scene — "The Cold Down the Spine" (No Witness)
+3
+
+===== PAGE 4/8 =====
+Short style tag — paste THIS with each shot:
+Bleached white midday road, cold hard light, the same strangers' smiles held
+too long with flat dead eyes, predatory stillness, static locked camera, no zoom.
+#
+Shot (size + angle)
+Prompt (style tag + this line)
+1
+The turn, two-shot
+Medium two-shot, the same stranger close to the
+man, the warm smile now holding a beat too long,
+the warmth curdling into something else
+2
+The cold flicker,
+extreme close-up
+Extreme close-up on the smiling face, the eyes
+going flat, dead and cold, the mask slipping
+beneath the smile
+3
+The surround, wide
+The strangers standing close around the lone
+man, calm and pleasant, his face registering cold
+realization, nowhere left to go
+4
+The predation
+(implied)
+The strangers close in around the man, then a
+hard cut to black before contact — we never see it
+5
+After / no witness,
+wide
+The empty bleached road again, silent and still,
+the strangers walking away unhurried, never
+looking back, the distant siren fading
+💡Shot 4 is the kill: cut to black BEFORE contact. What the mind fills in is
+worse than anything you can show — and it keeps the piece festival-
+safe and sellable.
+Shot breakdown (~25–30 sec)
+#
+Shot
+Prompt (append to the mood above)
+1
+Establishing
+...wide static shot of a deserted sun-blasted road,
+heat shimmer, total silence, one small lone figure far
+in the frame, oppressive emptiness
+2
+The figure
+...medium close-up of the lone figure, guard down,
+squinting in the sun, unaware, calm before the
+wrongness arrives
+Scene — "The Cold Down the Spine" (No Witness)
+4
+
+===== PAGE 5/8 =====
+#
+Shot
+Prompt (append to the mood above)
+3
+The approach
+...static shot, no zoom. Two strangers walk slowly up
+the road toward the man, warm smiles that don't
+reach the eyes
+4
+The cold flicker
+...extreme close-up on a smiling face, the smile
+holding a beat too long, the eyes going flat and cold
+— the mask slipping
+5
+The predation
+(implied)
+...static shot, no zoom. The strangers stand close
+around the man, his face registering cold realization,
+then a hard cut to black before contact — we do not
+see it
+6
+After / no witness
+...the empty road again, sunlit and silent, the
+strangers walking away unhurried, never looking
+back, the distant siren fading
+💡Shot 5 is the key: cut away before anything happens. What the mind
+imagines is worse than anything you can show — and it keeps the piece
+sellable, festival-safe, and more chilling.
+Voice + background score guide
+🎵The sound is half the dread. Silence does more work than music here.
+Use it like a weapon.
+The voice (if you add one)
+Keep it minimal — a few whispered words, not a narration. Use Fenrir (your voice
+model) if you have it, or record yourself low and close to the mic.
+Shot
+Voice
+How it sounds
+1 (establishing)
+Nothing
+Pure silence
+2 (the figure)
+A slow exhale
+Barely audible, like the sound before
+you realize you're in danger
+Scene — "The Cold Down the Spine" (No Witness)
+5
+
+===== PAGE 6/8 =====
+Shot
+Voice
+How it sounds
+3 (the
+approach)
+Nothing
+Let the footsteps and heat do the
+work
+4 (the cold
+flicker)
+One whispered line: "...warm."
+Low, close to mic, almost a breath —
+the recognition that the warmth was
+the weapon
+5 (the turn-
+away)
+Nothing — HARD SILENCE
+Cut everything. Dead air. This is the
+most powerful sound in the whole
+piece: none.
+6 (after)
+The end-card text, read slow:
+"They never promise. They
+never return."
+Quiet, steady, no emotion — a fact,
+not a feeling
+The background score
+Do NOT put music over the whole scene. That kills the dread. Music should
+appear in only 2 places:
+1. Shot 3–4 (the approach + the cold flicker): a single low sub-bass drone —
+not a melody, just a frequency you feel in your chest. It swells slowly as the
+strangers approach, peaks when the smile holds too long, then cuts to dead
+silence on the turn-away in shot 5.
+2. Shot 6 (after): a single sustained cello note — low, unresolved, fading —
+enters under the end-card text and dies out before the video ends. One note.
+Not a melody. Just the sound of something that will never be answered.
+How to do it in CapCut (free)
+Silence: don't add a track. Just let the clips play dry. The absence of sound IS
+the sound design.
+Sub-bass drone: search CapCut's audio library for "dark ambient" or "drone"
+— pick the lowest, simplest one. Trim it to shots 3–4 only. Fade in slow, cut
+hard.
+Cello note: search "cello" or "strings" — pick a single sustained low note. Trim
+to shot 6. Fade out before the video ends.
+Scene — "The Cold Down the Spine" (No Witness)
+6
+
+===== PAGE 7/8 =====
+Footsteps: if the clips don't have audio, add soft footsteps from CapCut's
+sound effects for shot 3 only. Keep them dry, no reverb.
+Siren: search "distant siren" in sound effects. Place it faint in shots 1 and 6
+only — far away, never closer.
+The golden rule
+Less sound = more dread. Every second of silence in this scene is doing more
+work than any track could. When in doubt, cut it out.
+Color & tone
+Color & tone
+Bleached, overexposed whites; the sun as a threat, not a comfort.
+Deep hard shadows. High contrast. Slightly desaturated.
+The wrongness is the contrast: warm light, cold heart.
+End card
+"They never promise. They never return."
+(beat)
+"That is why they are the cold down the spine."
+The lone figure (save this in Flow's Characters tab)
+An ordinary man in his mid-30s, lean and tired, short dark hair slightly unkempt,
+light stubble, brown eyes, wearing a faded olive-green jacket over a plain white
+tee, weathered but not rough — the face of someone who has been alone a
+long time. No armor. No threat. Just a person standing in the wrong place at the
+wrong time.
+How to make it (simple steps)
+Scene — "The Cold Down the Spine" (No Witness)
+7
+
+===== PAGE 8/8 =====
+🎬Same as your reel: turn each shot-prompt into a clip, then stitch. One
+step at a time — don't rush it.
+1. Open Flow. Save your lone figure in the Characters tab so the face stays the
+same across shots.
+2. Generate the 6 shots one by one. For each, paste the master scene prompt
+(the mood paragraph) + that shot's line from the table.
+3. On shot 5, remember: cut away before contact. Never show it.
+4. Open CapCut. Drop the 6 clips in order (1 → 6).
+5. Add the sound: near silence, a faint far-off siren, a low drone that swells —
+then hard silence on the turn-away in shot 5.
+6. Add the end-card text at the finish.
+7. Export. Done.
+Why it can earn
+Atmospheric psychological thrillers are in demand for shorts, music videos,
+and brand "mood films."
+It shows range beyond the consistency demo — tension, restraint, tone.
+Restraint (no on-screen violence) keeps it platform-safe and festival-eligible.
+Scene — "The Cold Down the Spine" (No Witness)
+8

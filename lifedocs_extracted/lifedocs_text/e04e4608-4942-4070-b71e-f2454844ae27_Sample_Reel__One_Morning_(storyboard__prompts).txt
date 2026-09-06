@@ -1,0 +1,110 @@
+
+===== PAGE 1/3 =====
+🎬
+Sample Reel — "One Morning"
+(storyboard + prompts)
+🎯This reel has ONE job: prove your superpower — the same character
+across every shot. Keep it simple. 5 shots, ~25 seconds. The trick: paste
+the identical character block at the top of every prompt.
+The tool (what you already have)
+Flow / Veo (your Google AI Pro) → generate each ~5 sec shot
+CapCut (free) → stitch the clips, add music + text cards
+No new tool needed. base44 etc. are irrelevant here.
+The IDENTITY block (paste into EVERY prompt —
+never change these)
+A warm, relatable woman in her early 30s, dark hair in a loose low bun, small
+gold stud earrings, light natural makeup, soft friendly face, same slim build.
+💡Lock the identity (face, hair, build) with the exact same words every time
+— that's what keeps it the same person. But let the wardrobe change per
+scene, or she looks like she slept in her clothes. Same face + different
+outfits = the harder, more impressive skill. Easiest way: use Flow's 
+Characters feature (left sidebar) to save her once, then just change the
+outfit in each shot's prompt.
+The 5 shots
+Sample Reel — "One Morning" (storyboard + prompts)
+1
+
+===== PAGE 2/3 =====
+#
+Time
+Shot
+Flow/Veo prompt (identity block +
+wardrobe + this)
+1
+0–5s
+Wake up, soft
+smile
+...wearing a soft grey cotton sleep
+tee, waking in bed, warm morning
+sunlight through a window, slow
+gentle push-in, cinematic, shallow
+depth of field
+2
+5–10s
+Pouring coffee
+...wearing a cozy oatmeal knit
+cardigan over a white tee, in a sunlit
+kitchen, pouring coffee into a mug,
+steam rising, handheld medium shot,
+warm tones
+3
+10–15s
+Walking the
+street
+...now dressed for the day in an
+olive-green linen shirt and blue
+jeans, walking down a quiet city
+street in soft morning light, tote bag
+on shoulder, tracking wide shot,
+natural motion
+4
+15–20s
+Café, opens
+laptop
+...still in the olive-green linen shirt,
+sitting at a café table, opening a
+laptop, focused and calm, medium
+shot, gentle bokeh background
+5
+20–25s
+Look up, warm
+smile
+...still in the olive-green linen shirt,
+looks up directly at camera and
+smiles warmly, close-up, soft light,
+freeze on the smile
+Smarter: edit & chain, don't regenerate from scratch
+⚡Great instinct. You don't have to prompt 5 cold shots and hope they
+match. Make ONE strong shot of her, then build the rest from it — the
+face carries over, so consistency is far better and it's faster.
+Frame-chaining: generate shot 1 → grab its last frame → use it as the start
+image for shot 2 (image-to-video). Repeat down the line. Each shot inherits
+the previous face.
+Sample Reel — "One Morning" (storyboard + prompts)
+2
+
+===== PAGE 3/3 =====
+Edit / extend: use Flow's edit or extend on a clip you already like to change
+the action or scene, instead of re-rolling from zero.
+Characters feature: save her once (left sidebar), reuse her across every
+generation.
+Only fully regenerate a shot when it genuinely drifts.
+The end card (add in CapCut)
+Text on screen: "Same character. Every shot. Made with AI."
+Second line / smaller: "[Your name] — custom AI video reels"
+Cut checklist
+Generate all 5 shots in Flow (regenerate any where the face drifts)
+Import into CapCut in order
+Trim each to ~4–5s, hard cuts on the beat
+Add a calm, upbeat royalty-free track
+Add the end text card
+Export vertical 9:16 (for Instagram/TikTok/WhatsApp pitches)
+✅Done = one 25-sec vertical clip that screams "I can keep a character
+consistent." That single file is what you attach to all 5 pitches.
+Swap it if you want
+The character is a default — swap in anyone (a man, an older character, a product
+mascot). Just keep the one rule: identical identity description every time — the
+outfit can (and should) change per scene. If you'd rather showcase a musician-
+video vibe, tell me and I'll rewrite the 5 shots for that.
+Sample Reel — "One Morning" (storyboard + prompts)
+3

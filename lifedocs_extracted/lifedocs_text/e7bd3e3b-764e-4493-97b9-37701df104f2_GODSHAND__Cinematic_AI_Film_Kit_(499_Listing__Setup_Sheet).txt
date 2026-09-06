@@ -1,0 +1,301 @@
+
+===== PAGE 1/9 =====
+🎬
+GODSHAND — Cinematic AI Film
+Kit (₹499 Listing + Setup Sheet)
+🎬Turn a single portrait into a cinematic AI film shot — on a free GPU.
+GODSHAND is the exact pipeline used to render The Saga of the
+Beholder. You bring a character image; the kit gives you graded, HD,
+motion-consistent film frames without a render farm.
+Draft listing copy — rename "GODSHAND" freely. Everything below is written to
+be pasted into Topmate / Razorpay / Gumroad. The second half is the honesty
+sheet buyers should read before paying.
+The one-liner
+GODSHAND Cinematic AI Film Kit — a guided notebook that renders film-grade
+AI video shots from your own character images, running entirely on free Kaggle
+dual-T4 GPUs. No render farm, no paid cloud, no melt.
+What it does
+Takes your anchor image(s) (a face/character) and animates them into short
+cinematic shots.
+Runs a hardened Wan 2.2 image-to-video pipeline (with a working LTXV
+fallback engine).
+Applies a full film grade — Kodachrome-style color, halation, film grain,
+sharpening — automatically.
+Upscales to HD (1536×1024) and interpolates for smooth motion.
+GODSHAND — Cinematic AI Film Kit (₹499 Listing + Setup Sheet)
+1
+
+===== PAGE 2/9 =====
+Renders in shot batches so you can build a whole film across multiple free-
+GPU sessions.
+Why it's different (the hard-won part)
+This isn't a fresh ComfyUI workflow you have to debug. It's a kit where the painful
+failures are already solved:
+✅ Anti-melt / anti-rainbow fix — the render-schedule desync that turns AI
+video into noise soup is patched.
+✅ Memory-safe streaming grade — the postprocess step no longer OOM-
+crashes on HD footage (bounded RAM, tunable).
+✅ Fits free 14 GB T4 GPUs — quantized models chosen so it actually runs
+where you don't pay.
+✅ Shot/chunk system — render 435-shot films in resumable batches.
+What's inside
+The full rainman-wan.ipynb Kaggle notebook (drop-in, guided).
+The GODSHAND source kit (render, grade, upscale, face-enhance, stitch).
+A quick-start guide + the recommended settings that actually work.
+A full video walkthrough — the entire process screen-recorded end to end,
+so nothing is left to guesswork.
+Sample anchor images and a demo shot list.
+Proof
+The film speaks for the kit. The Saga of the Beholder — every frame rendered on
+free GPUs with this exact pipeline. The demo clips are the use-case: film
+entertains, the kit empowers.
+Price
+₹499 — one-time, lifetime access. Includes the full kit, the notebook, the quick-
+start guide, and a complete step-by-step video walkthrough of the entire
+GODSHAND — Cinematic AI Film Kit (₹499 Listing + Setup Sheet)
+2
+
+===== PAGE 3/9 =====
+process — recorded end to end so you just follow along, click for click.
+⚠️ Read before you buy — honest setup requirements
+🧭This is a guided notebook, not a one-click app. If you follow steps and
+have a little patience, it works. If you expect a magic "make my movie"
+button, this isn't that — and I'd rather you know now.
+You will need
+A free Kaggle account, phone-verified (required to unlock GPUs).
+Kaggle's free dual-T4 GPU quota (~30 hrs/week — enough for real work, not
+unlimited).
+A free HuggingFace account + access token (to download the open models).
+Your own character/anchor images (or use the samples included).
+Basic comfort with: opening a notebook, pasting a token, clicking Run. No
+coding required.
+Time & expectations
+Rendering is slow on free GPUs — roughly 8–9 minutes per shot. A full film is
+many sessions, not one afternoon.
+Output is stylized AI video. Expect occasional imperfections (hands, tiny
+details, rare artifacts). The kit minimizes them; it doesn't make them
+impossible.
+What this kit does NOT do
+❌ It's not a hosted service — you run it on your own free Kaggle account.
+❌ It won't run well on random low-VRAM setups; it's tuned for Kaggle T4s.
+❌ It doesn't include a commercial-use guarantee for the underlying open
+models — check each model's license if you plan to sell what you render.
+GODSHAND — Cinematic AI Film Kit (₹499 Listing + Setup Sheet)
+3
+
+===== PAGE 4/9 =====
+❌ It's not a chatbot or a script writer — it renders shots from images you
+provide.
+FAQ
+Do I need a registered business or GST to buy?
+No — it's a digital download. You just need a way to pay.
+Can I use my own faces/characters?
+Yes. Drop in your own anchor images. Sample images are included to start.
+Will it work on Google Colab?
+It's built and tested for Kaggle dual-T4. Colab may work with tweaks but isn't
+supported out of the box.
+Can I sell videos I make with it?
+The kit code is yours to use, but the underlying AI models have their own licenses.
+Verify commercial terms for the models before selling output.
+What support do I get?
+Best-effort help via the setup guide + a contact channel. This is a solo-built kit,
+not a company helpdesk — priced accordingly.
+Refund policy (suggested)
+Because this is an instant digital download with a complete video walkthrough
+included, all sales are final once the files are accessed. There's no "I couldn't set
+it up" gap — the video shows every single step. If you still get stuck, reach out
+and I'll help you get running.
+Pre-launch checklist
+Finish + export the film (your #1 proof asset).
+Pick a payment rail (Topmate / Razorpay individual / Gumroad).
+Record a 60–90s screen demo of the kit rendering one shot.
+Zip the kit + guide; test the download on a clean account.
+GODSHAND — Cinematic AI Film Kit (₹499 Listing + Setup Sheet)
+4
+
+===== PAGE 5/9 =====
+Publish listing → share proof clips → get first paying stranger.
+🎥 Video walkthrough — recording script
+🎬Record on a clean, fresh Kaggle account (new login, no pre-setup). The
+buyer must see the exact path they'll walk — not your already-
+configured machine. Timelapse the slow render parts. Aim for 12–18 min
+with chapter markers.
+0. Cold open (10–20s) — the hook
+Open on a finished graded shot from the film. Voiceover: “This was rendered on a 
+free GPU, no paid cloud. In the next few minutes I'll show you exactly how — step
+by step, nothing skipped.”
+1. What you need (30s)
+On screen: a browser, a free Kaggle account, a free HuggingFace account. “No
+installs. No coding. If you can paste a code and click Run, you can do this.”
+2. Kaggle account + GPU unlock (1–2 min)
+Sign in → phone-verify → show where to enable the dual-T4 GPU accelerator. Call
+out the ~30 hrs/week free quota honestly.
+3. HuggingFace token (1 min)
+Create account → Settings → Access Tokens → create a read token → copy it.
+“This lets the notebook download the models.”
+4. Load the notebook + kit (1–2 min)
+Import rainman-wan.ipynb → attach the GODSHAND kit dataset → add the token as a
+Kaggle Secret named HF_TOKEN . Show exactly where each field goes.
+5. Add your character + story (2–3 min) — the magic moment
+Upload your anchor image(s) → open the shot-list / story file → edit one shot's
+prompt so viewers see their story is what drives the render. This is the “it's my
+film” hook.
+6. Run it (1 min + timelapse)
+GODSHAND — Cinematic AI Film Kit (₹499 Listing + Setup Sheet)
+5
+
+===== PAGE 6/9 =====
+Click Run All. Narrate what's happening: models downloading, both experts
+loading, sampling starting. Timelapse the wait so it never feels slow.
+7. First shot renders (1–2 min)
+Show the raw base shot. Then the HD upscale and the film grade — cut a quick
+before/after so the color + grain “wow” lands.
+8. Export + download (1 min)
+Show the final .mp4 and where to download it. “That's one shot. Repeat for your
+whole film — the kit resumes across sessions.”
+9. Outro (30s)
+Recap the 3 things they needed. Point to the quick-start guide + how to get help.
+End on the finished film clip again. “That's the whole thing. Go make yours.”
+Recording tips
+Screen-record at 1080p; a small webcam bubble builds trust but is optional.
+Cut dead air ruthlessly; every model-download wait gets timelapsed.
+Add chapter markers matching the steps above — buyers rewatch specific
+parts.
+A 60–90s cut of steps 0, 5, 7 = your sales demo. Film both in one sitting.
+🔴 How to record it (free)
+Screen recorder: OBS Studio (free, all platforms) — or zero-install built-ins:
+Windows Win+G, Mac Cmd+Shift+5. Record at 1080p.
+Don't film the slow render live. Record the setup steps → stop during the ~8–9
+min render → resume for the result. Splice the segments (or drop a “rendering…”
+timelapse card) in editing.
+Audio: narrate live with any headset/phone mic, or record silent and add captions
++ voiceover after — less pressure on take one.
+Editing (free): CapCut, DaVinci Resolve, or iMovie / Clipchamp. Import the actual
+film .mp4 clips for beats 0 and 7 — don't screen-record them, or they'll look soft.
+Before you hit record: use a clean browser profile (bookmarks hidden, no
+personal tabs) and the fresh Kaggle account, so viewers see the real from-
+GODSHAND — Cinematic AI Film Kit (₹499 Listing + Setup Sheet)
+6
+
+===== PAGE 7/9 =====
+scratch path.
+🎯 Where to find buyers
+🧭Honest targeting note: the kit still needs a Kaggle account + HF token, so
+the real sweet spot isn't literally zero-tech — it's the budget AI-creator
+who'll happily follow a video. The faceless-YouTube / AI-video crowd is
+perfect: hungry, tutorial-native, allergic to paying for expensive tools.
+💰Demand is real: creators already pay for faceless-video workflows (one
+builder even got an $8K offer to buy their pipeline). Your edge is a one-
+time ₹499 kit that runs free on Kaggle — it directly beats the monthly
+SaaS tools this crowd resents.
+Communities to target
+Platform
+Community
+Why / rules to respect
+Discord
+Faceless Incubator (~38k)
+Largest faceless-creator hub — biggest
+pool. Watch promo rules.
+Discord
+YouTube Faceless (~20.7k)
+The #1 faceless community, but strictly
+no self-promo — value first, DM only if
+invited.
+Discord
+AI Forum for India (~7.5k)
+India-focused AI hub — your budget-
+creator base.
+Discord
+AI Filmmakers server (invite
+pinned in r/aifilmmaking)
+Craft-focused, platform-independent;
+share the film as proof.
+Discord
+Wan (official) / ComfyUI
+servers
+The exact models your kit uses;
+showcase channels welcome results.
+Reddit
+r/aitubers
+Small AI-video creators, tutorial-hungry.
+Showcase-friendly.
+Reddit
+r/aifilmmaking
+Exactly your craft; people asking “how
+was this made?”
+GODSHAND — Cinematic AI Film Kit (₹499 Listing + Setup Sheet)
+7
+
+===== PAGE 8/9 =====
+Platform
+Community
+Why / rules to respect
+Reddit
+r/comfyui, r/StableDiffusion
+Technical AI-video crowd; best for “built
+on free GPUs” proof clips. No
+paywalled-workflow spam.
+Reddit
+r/FacelessAICreators,
+r/Seedance_AI
+More faceless / AI-video subs;
+showcase-friendly.
+India
+AI Learners India (Hindi, no-
+code Discord)
+Zero-tech-background, limited-funds
+beginners — your ideal buyer.
+India
+AI Video Generators
+(Telegram)
+Active AI-video channel comparing
+tools; warm audience.
+Facebook
+“Faceless YouTube” creator
+groups
+Older/less-technical creators on tight
+budgets.
+How to find more (server-finder sites)
+Search these by tag ( comfyui , filmmaking , ai-video , faceless ) to surface fresh
+servers: Disboard, Discadia, top.gg, DigitalOcean's AI-Discord roundup, and 
+aixploria's AI-Discord list.
+The value-first playbook (don't get banned)
+1. Lead with the film, not the link. Post a stunning clip: “Rendered this entirely
+on a free Kaggle GPU.” Let people ask how.
+2. Answer generously in public. When someone asks about setup, actually help.
+You become “the free-GPU AI-film person.”
+3. Soft-mention, don't spam. “I packaged my exact pipeline + a full walkthrough
+video if anyone wants the shortcut — happy to DM.”
+4. Use showcase channels where self-promo is allowed; respect the no-promo
+rule everywhere else.
+5. Let the walkthrough clip do the selling — people who see the whole process
+work are pre-sold and won't refund.
+Ready-to-post templates
+Reddit showcase post (r/aifilmmaking, r/StableDiffusion, r/aitubers)
+GODSHAND — Cinematic AI Film Kit (₹499 Listing + Setup Sheet)
+8
+
+===== PAGE 9/9 =====
+Title: I rendered a short film entirely on a free GPU — no paid cloud, no render
+farm
+Body: I spent months fighting the usual AI-video curse — melting faces,
+rainbow noise, characters that change identity every frame. I finally got a
+pipeline that holds a consistent face and grades like real film (Kodachrome
+warmth, grain, halation), running entirely on free Kaggle T4 GPUs.
+Here's a ~30-second piece from a longer memoir project I'm building.
+Ask me anything about how it's built — happy to share the setup. What would
+you want to see it render next?
+(Attach the clip. No link in the post body — let people ask. Reply to “how?” with
+the soft-mention below.)
+Discord showcase-channel message
+Made this on a free Kaggle GPU 👇 Took forever to kill the melt + rainbow
+noise, but it finally holds a real face and a proper film grade. Everything's open
+models on a free T4 — happy to answer setup questions 🙌
+(Drop the clip. Only post in channels that allow showcases.)
+Soft-mention reply (when someone asks “how did you do this?”)
+Sure — it's Wan 2.2 image-to-video on ComfyUI, quantized to fit a free T4, with
+a custom grade + upscale pass. I packaged my exact notebook + a full step-by-
+step walkthrough video so people don't have to relive the debugging pain —
+happy to DM the link if that's useful, otherwise glad to explain any part here.
+GODSHAND — Cinematic AI Film Kit (₹499 Listing + Setup Sheet)
+9

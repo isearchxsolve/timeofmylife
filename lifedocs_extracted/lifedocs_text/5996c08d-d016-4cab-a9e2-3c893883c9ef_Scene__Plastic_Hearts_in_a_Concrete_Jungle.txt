@@ -1,0 +1,159 @@
+
+===== PAGE 1/5 =====
+🫀
+Scene — Plastic Hearts in a
+Concrete Jungle
+🫀This one is not built from craft. It's built from the ache. A city full of
+warmth that isn't warmth. A thousand smiles, not one of them alive. And
+one flesh heart walking through it — the only one that can still break,
+because it's the only one that was ever real.
+The feeling (read this first, before any prompt)
+The desert road was the fear — predators in the open, nowhere to hide. This is the
+loneliness — predators everywhere, dressed as friends. The concrete jungle isn't
+empty. It's full. That's the horror. Every face smiles. Every hand reaches out
+warm. And every heart is plastic — molded to look like love, cold when you finally
+touch it. You are the one real heart in the grey forest. It hurts because it's real. A
+plastic heart never aches. That's the trade it made.
+Don't shoot the cold. Shoot the loneliness of being the only warm thing in a
+warm-looking world.
+Logline
+A man walks through a crowded city street. Everyone smiles at him — warm, kind,
+welcoming. He reaches back. And one by one, up close, the smiles are perfect
+and hollow, the eyes glassy like mannequins. He is surrounded by warmth and
+utterly alone. The only beating heart in a city of plastic ones.
+Master scene prompt (for Flow / Veo)
+Scene — Plastic Hearts in a Concrete Jungle
+1
+
+===== PAGE 2/5 =====
+Cinematic, emotional, a crowded modern city street between towering glass
+buildings, cold overcast daylight, a river of well-dressed people flowing past.
+One ordinary tired man moves against the current, searching faces. The crowd
+smiles at him — warm, welcoming, too perfect — but their eyes are glassy and
+empty, like beautiful mannequins. Muted desaturated palette, steel and grey
+and glass, one faint warm tone on the lone man only. Melancholic, still,
+dreamlike. Static locked-off camera — no zoom, no push-in, no camera
+movement whatsoever. No dialogue. The loneliness of being the only real heart
+in a crowd.
+🔑The single most important instruction: the lone man is the only warm-
+colored thing in the frame. Everyone else is cool, grey, glassy. That one
+warm tone is his living heart. Let the color carry the whole story.
+Shot breakdown (~25–30 sec)
+🎬Why they came out monotonic: you were pasting the whole master
+paragraph into every shot, so Flow kept rebuilding the same wide street.
+Two fixes: (1) paste the short style tag below instead of the full
+paragraph, and (2) give every shot a different camera distance and
+angle — wide, then medium, then close, then macro. Varied framing is
+what turns six photos into a film.
+Short style tag — paste THIS with each shot (not the whole paragraph):
+Cold grey glass city, desaturated cinematic, one warm-toned man among a
+glassy-eyed crowd, static locked camera, no zoom.
+#
+Shot (size + angle —
+keep these different!)
+Prompt (style tag + this line)
+1
+Extreme wide, high
+angle
+High aerial angle looking straight down on a vast
+grey city intersection, crowds flowing like a river,
+one tiny warm-lit figure standing still in the
+center
+Scene — Plastic Hearts in a Concrete Jungle
+2
+
+===== PAGE 3/5 =====
+#
+Shot (size + angle —
+keep these different!)
+Prompt (style tag + this line)
+2
+Medium, from behind
+Eye-level from just behind the lone man's
+shoulder, his warm silhouette moving forward
+into a dense grey crowd of blurred strangers
+3
+Close-up, front
+Close-up of the lone man's tired warm face, eyes
+searching, the cold crowd soft and out of focus
+behind him
+4
+Wide POV (his eyes)
+His point of view: a row of strangers turning to
+face the camera, all smiling warmly and
+identically, a wall of friendly faces
+5
+Macro / extreme
+close-up
+Macro extreme close-up of one stranger's
+smiling face, sharp focus on the glassy, dead eye
+and the flawless frozen smile — no life behind it
+6
+Low angle, wide,
+behind
+Low angle from the ground behind him, the lone
+warm figure walking away small beneath
+towering cold glass buildings, the smiling grey
+crowd flowing around him
+💡The gut-punch is the macro dead eye (shot 5): hold it one beat too long,
+let the flawless smile become unbearable — then cut hard to him
+walking away (shot 6).
+Sound + voice (heart, not noise)
+Under everything: the muffled hum of a city — but hollow, like it's underwater.
+Distant, unreal.
+The one real sound: a single, slow, human heartbeat — his — low in the mix,
+the only living thing you can hear. It's the emotional anchor of the whole
+scene.
+Shot 4 (the hollow smile): cut the city hum. Just the heartbeat, alone, too loud
+now.
+Shot 5–6: one sustained, aching cello or piano note — unresolved, human,
+warm — rising over the heartbeat as he walks away.
+Scene — Plastic Hearts in a Concrete Jungle
+3
+
+===== PAGE 4/5 =====
+Voice (optional, one line, shot 6, whispered): "A whole city of hearts. Not one
+of them beating."
+Color & tone (this IS the story)
+Everything cold: steel, grey, glass, desaturated blue.
+The lone man: one faint warm tone — skin that still has blood in it.
+The crowd's smiles: bright but colorless. Perfect and dead.
+The contrast between his warmth and their grey is the entire film. Nothing else
+needs to say it.
+End card
+"In a city of plastic hearts,"
+(beat)
+"the one that breaks is the only one that was ever real."
+How to make it (simple, one step at a time)
+1. Open Flow. Save the lone man as a Character (use the description below) so
+his face stays the same.
+2. Generate the 6 shots one at a time. Paste the short style tag (not the whole
+paragraph) + each shot's line. Every shot is a different distance and angle, so
+they won't come out the same — and static + no-zoom is baked into the tag.
+3. If any shot zooms, add “static shot, no zoom” to the front and delete any
+motion words.
+4. Stitch 1 → 6 in CapCut.
+5. Add the heartbeat under the whole thing; cut the city hum on shot 4; bring the
+cello in on shots 5–6.
+6. Do the color grade last: cool everything down, leave the man slightly warm.
+CapCut → Adjust → pull temperature cold, then mask the man warmer if you
+can.
+Scene — Plastic Hearts in a Concrete Jungle
+4
+
+===== PAGE 5/5 =====
+7. Add the end card. Export.
+The lone man (save in Flow's Characters tab)
+An ordinary tired man in his mid-30s, lean, short dark unkempt hair, light
+stubble, warm brown eyes that still hold feeling, a plain worn jacket. The one
+face in the crowd that looks alive — tired, searching, human. Warm skin tone
+against a cold grey world.
+Why it can earn
+This is a mood film / concept short — exactly what music artists, brands, and
+festivals want.
+The single-warm-figure-in-a-cold-crowd look is iconic and instantly readable
+— it photographs like a poster.
+It shows emotional range, not just technical consistency. This is the kind of
+piece that makes someone say “who made this” — which is how you get hired.
+Scene — Plastic Hearts in a Concrete Jungle
+5

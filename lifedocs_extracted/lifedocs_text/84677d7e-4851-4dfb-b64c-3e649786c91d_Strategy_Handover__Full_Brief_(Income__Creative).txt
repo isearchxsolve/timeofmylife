@@ -1,0 +1,151 @@
+
+===== PAGE 1/5 =====
+🧭
+Strategy Handover — Full Brief
+(Income + Creative)
+🧭Complete strategy handover. Two halves: Income (fastest path to the
+first rupee) and Creative (the film/video work). Self-contained — hand
+this to any AI or execute directly.
+The one diagnosis that matters
+The work reaches 99% and then gets abandoned one step before shipping. The
+bottleneck was never building, and never skill — it was the final decision to
+publish. The only unit of progress is a shipped, live, public link. Nothing before
+the last 1% counts.
+PART 1 — INCOME
+Core equation
+Earning = offer × audience × ask. The offers exist and the skill is real. The gap is 
+distribution and the ask — publishing, and putting it in front of people.
+Rails
+Instamojo (KYC done), UPI, two bank accounts.
+Track A — Ship packaged digital products (execution
+only, nothing left to build)
+All three are finished and zipped. The missing step is identical for each: upload →
+set price → Publish on Instamojo.
+Strategy Handover — Full Brief (Income + Creative)
+1
+
+===== PAGE 2/5 =====
+Product
+Price
+File
+Convergence
+₹499
+Convergence_Framework.zip
+SafeScreen (content moderation)
+₹1,999
+SafeScreen_ContentModeration.zip
+Solana Sniper (study + source)
+₹2,499
+Solana_Sniper_Study_and_Source.zip
+Also packaged if wanted: ASES_Source.zip, Omega_Agent_Source.zip,
+AI_Video_Monetizer_CLEAN.zip.
+Publish steps (repeat per product):
+1. instamojo.com → Add New Product → Digital Product
+2. Paste title + description from the product's listing page (Convergence listing;
+SafeScreen and Solana Sniper each have their own listing page in the
+workspace)
+3. Upload the zip → set the price → Publish → copy the payment link
+4. Cover image: screenshot the first page of that product's PDF
+Distribution (one post per product):
+SafeScreen → r/MachineLearning, r/computervision, ML/dev on X
+Solana Sniper → r/solana, r/algotrading, crypto-dev on X
+Convergence → LinkedIn + one relevant subreddit
+Post format: one line on what it does + price + link
+Track B — Video service outreach (higher, recurring
+money) [CREATIVE]
+Marketable edge: character consistency across shots in Google Flow — most AI
+video cannot hold a single face across a scene. That is the sellable differentiator.
+Steps:
+1. Cut one 20–30s sample reel showing the same character across multiple shots
+2. Pick ONE niche: local businesses OR indie musicians
+3. List 5 real prospects
+4. Send pitch + sample reel
+Strategy Handover — Full Brief (Income + Creative)
+2
+
+===== PAGE 3/5 =====
+5. First "yes" → quote ₹800–1,500 (first job)
+6. Deliver → send Instamojo/UPI link → collect → raise the price
+Pricing ladder: ₹800–1,500 (intro) → ₹2,000–5,000 → ₹5,000–15,000 (music
+videos) → ₹6,000–15,000/mo (retainers).
+Pitch — business:
+Hi [name] — I make short, scroll-stopping AI video reels for businesses like
+yours. Same character, consistent look across every shot (most AI video can't
+do this). 20-sec sample: [link]. I have a couple of intro slots this week — want
+one for [product]? I'll show a draft first.
+Pitch — musician:
+Hi [name] — love [release]. I make cinematic AI video reels for indie artists:
+consistent characters, a real visual story, cheaper than a shoot. Sample: [link].
+Want one for your next drop? I'll send a draft before you pay anything.
+PART 2 — CREATIVE (FILM)
+Tool + method
+Google Flow (PRO).
+Pipeline: reference image → change ONE variable at a time → reroll.
+Do not chase a perfect still. The unsettling "dead eyes" quality lands in motion
+(the shot), not in a frozen portrait.
+Save each character in the Characters / Ingredients panel for cross-shot
+consistency.
+Guardrails (keep these)
+Characters read as clear adults.
+Scenes are implied, never explicit — restraint is the whole effect. Never
+depict the violence/kill; cut around it.
+Strategy Handover — Full Brief (Income + Creative)
+3
+
+===== PAGE 4/5 =====
+Use only original or properly licensed reference material.
+Scenes (all shoot-ready)
+1. Cold Down the Spine (street) — the unmarked predator in daylight; strangers
+emerging from the heat-haze, warm smiles that don't reach the eyes. 6-shot
+base + warm set + cold set.
+2. Plastic Hearts in a Concrete Jungle
+3. The Seduction (bedroom) — full sequence below.
+Characters
+SEDUCER — young adult woman, early 20s. Pale, cold porcelain skin; soft baby
+face; button nose; larger eyes; red lips; light natural makeup. Manufactured,
+magazine-perfect beauty that performs warmth — but the eyes are flat, vacant,
+dead: nobody home. American Beauty / Angela archetype: gorgeous surface,
+hollow interior; the rose rotting at the roots. The chill = a warm, inviting mouth and
+dead eyes on the same face.
+THE MAN (the one seduced) — "An ordinary man in his mid-30s, lean and tired,
+short dark hair slightly unkempt, light stubble, brown eyes, faded olive-green
+jacket over a plain white tee." Forgettable, trusting.
+The Seduction — shot sequence (warm set → cold set)
+Shot 1 — warm establishing:
+Warm candlelit bedroom, night, soft amber light. Wide: a pale young woman
+and a tired ordinary man sit close on the edge of the bed, turned toward each
+other, calm and intimate. Handheld, shallow depth of field, film grain.
+Shot 2 — warm, her face:
+Close-up, warm candlelight, the woman's face: soft inviting half-smile, red lips,
+disarming warmth, leaning toward him.
+Shot 3 — warm, his trust:
+Strategy Handover — Full Brief (Income + Creative)
+4
+
+===== PAGE 5/5 =====
+Over-the-shoulder from behind the man toward the woman. She reaches out,
+gentle. He relaxes into it, trusting, safe.
+Shot 4 — the turn:
+Extreme close-up on the woman's face. The warm smile holds a beat too long.
+Her eyes go flat, vacant, cold, dead — nobody home behind them. Candle
+flame flickers.
+Shot 5 — his realization:
+Close-up on the man's face. Dawning fear, frozen. The warm light draining to
+cold.
+Shot 6 — cold aftermath:
+Wide shot, cold steel-blue light. The bed still. The woman sits calm, blank,
+empty. Silence.
+Post:
+Do not show the kill. Cut Shot 4 → 5 → 6.
+End card (black screen): The warmest hands / are the ones that hold you still.
+Grade: warm amber (Shots 1–3) → steel-blue (Shots 4–6).
+Sound: breath / near-silence → sub-bass drone on the flicker (Shot 4) → dead
+silence on realization (Shot 5) → one cello note (Shot 6).
+Companion narrative
+Memoir — 10 movements / 24 chapters. Motifs to preserve: the eagle/ground, the
+beholder, the bug, the unmarked predator.
+✅Whoever executes this: publish one product end-to-end before touching
+anything else. A live payment link is the only thing that counts as done.
+🎬THE CONFRONTATION CLIP — Flow Generation Sheet
+Strategy Handover — Full Brief (Income + Creative)
+5

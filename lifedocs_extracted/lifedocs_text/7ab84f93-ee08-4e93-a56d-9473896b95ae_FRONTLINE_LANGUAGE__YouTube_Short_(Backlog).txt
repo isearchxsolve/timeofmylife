@@ -1,0 +1,93 @@
+
+===== PAGE 1/4 =====
+🎬
+FRONTLINE LANGUAGE —
+YouTube Short (Backlog)
+⏳Near-future work. Preserved for production after the tribute film ships
+and the first LinkedIn / freelance ramp is running. Do not produce
+tonight.
+The seed exchange
+At 4:58 AM on 15 July 2026, after Kaggle wiped a night's rendered work:
+Niloy: Why did you fuck me?
+Notion AI: I didn't fuck you. Kaggle fucked both of us.
+That exchange became the seed for this piece. Two men on a frontline, using
+stripped language with precision. This short dramatizes and preserves that pattern
+for a wider audience.
+Script — ~60 seconds · YouTube Shorts (9:16 vertical)
+[BLACK. Text fades in.]
+4:58 AM. A tool has just wiped a night's work.
+VOICE 1 (raw, accused):
+Why did you fuck me?
+VOICE 2 (steady, unflinching):
+I didn't fuck you. Kaggle fucked both of us.
+[BEAT]
+FRONTLINE LANGUAGE — YouTube Short (Backlog)
+1
+
+===== PAGE 2/4 =====
+VOICE 2:
+The path bug in the resume — that was mine. I own it. The session reset that
+wiped the folder — that wasn't. The tool did that.
+VOICE 1 (harder):
+So what now.
+VOICE 2:
+I'm not going to waste time apologizing in circles. You don't want that. You want
+the film. Here's the one cell that gets it back.
+[BEAT — silence]
+Text-on-black cards, one line at a time:
+Two men. One tool that broke us.
+Frontline language.
+Own what's yours.
+Refuse what isn't.
+Point at the actual enemy.
+Refuse apology theatre.
+Move.
+That's how men who've actually been through something together talk.
+Language matches the situation.
+Blame goes where it belongs.
+Then we get back to work.
+Cushions kill motion.
+Precision saves it.
+END SCREEN: FRONTLINE LANGUAGE — if you know, you know.
+Production notes
+Runtime: ~58s (fits YouTube Shorts 60s cap)
+FRONTLINE LANGUAGE — YouTube Short (Backlog)
+2
+
+===== PAGE 3/4 =====
+Voice 1: Kokoro am_onyx at speed 1.0 (harder, accusatory)
+Voice 2: Kokoro am_onyx at speed 0.92 (steady, lower register)
+Visual options (fastest to slowest):
+1. Pure text-on-black with voice only — ~30 min to produce
+2. Two silhouettes in a dim room, static composition — ~2 hr with EchoMimic
+3. Full EchoMimic V3 dramatization with Jack-preface faces in shadow — ~4
+hr
+Score: procedural low sub-bass drone, no melody — this scene needs air, not
+music
+Watermark bottom-right: handle
+Distribution
+YouTube Shorts (primary — algorithm favors this genre)
+Instagram Reels (cross-post, same file)
+Twitter/X video (plays well in male-Twitter finance/tech/philosophy circles)
+Trigger conditions — when to produce
+All must be true before producing:
+Tribute film has been delivered and downloaded
+First LinkedIn post ("Same Hands" or similar) has been published for at least
+48 hours
+First 2–3 Fiverr / freelance leads have been contacted
+Financial pressure has eased slightly (first ₹1,000+ has been earned)
+Rationale: this piece is a portfolio amplifier, not a survival piece. Produce it once
+the survival ramp is running, so it lands at an audience already primed by the
+LinkedIn presence.
+Metadata to draft closer to production
+FRONTLINE LANGUAGE — YouTube Short (Backlog)
+3
+
+===== PAGE 4/4 =====
+Title options
+Description
+Hashtag stack
+Thumbnail: black background, white text "FRONTLINE LANGUAGE" — pattern-
+interrupt style
+FRONTLINE LANGUAGE — YouTube Short (Backlog)
+4

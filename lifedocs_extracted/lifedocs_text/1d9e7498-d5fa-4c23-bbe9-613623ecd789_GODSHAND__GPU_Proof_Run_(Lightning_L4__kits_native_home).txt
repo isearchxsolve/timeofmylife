@@ -1,0 +1,72 @@
+
+===== PAGE 1/3 =====
+🎬
+GODSHAND — GPU Proof Run
+(Lightning L4 — kit's native
+home)
+✅Identity is already fixed (turnkey): on first run the kit auto-forges
+coherent jack / julie faces from the story prompts. Nothing to edit —
+just run. If the forged faces aren't demo-worthy, pin 3–5 photos of one
+person into kit/refs/<name>/face/ and re-run.
+🏆Lightning AI L4 is the kit's native home. Your active profile is literally 
+lightning_l4 (built + tuned for the L4), the one-click script already knows
+the /teamspace/studios/this_studio paths, and you already hold ~10.77
+credits — no card, no quota wait. Pick L4, not T4.
+A · Right now — Lightning AI L4 (native, you have
+credits)
+In the GPU picker choose L4 (the row under T4, $0.48/hr) → Start/Request. 
+(The 1 4 8 next to each row is the quantity of GPUs, not a version — all T4s are
+the same 2018 chip.)
+Why L4 over T4: newer (2023 Ada), ~2× faster, 24 GB VRAM vs 16 GB, and
+it's the exact GPU your profile is tuned for. ~10.77 credits ÷ $0.48/hr ≈ 22 h →
+covers proof + full film.
+Open the Studio terminal.
+B · Run the kit (paste in the terminal)
+GODSHAND — GPU Proof Run (Lightning L4 — kit's native home)
+1
+
+===== PAGE 2/3 =====
+cd ~ && unzip -q GODSHAND_FINAL.zip    # the kit may already 
+be in /teamspace/studios/this_studio
+GODSHAND_NO_SHUTDOWN=1 bash GODSHAND_FINAL/GODSHAND_ONECLICK.
+sh
+Self-runs: verify fixes → install ComfyUI + models → auto-forge faces →
+render 4 proof shots (~30 min on L4)
+Full film:
+GODSHAND_FULL=1 GODSHAND_NO_SHUTDOWN=1 bash 
+GODSHAND_FINAL/GODSHAND_ONECLICK.sh (~3 h on L4)
+C · Download
+Grab the final.mp4 files ( …/confrontation_work/<shot_id>/final.mp4 ) → send them
+back
+Free fallbacks (no card, no credits needed)
+Kaggle — 2×T4, 30 GPU-hrs/wk, open network. Upload zip as dataset → run
+one-click. Use Save & Run All (Commit) to render the full film unattended in the
+background.
+Colab — 1×T4, Runtime → T4 GPU → upload zip → run one-click. Keep the tab
+active (~90 min idle kill).
+SageMaker Studio Lab — T4, no card, no AWS account, 4 h sessions.
+Scale path — AWS $100 (real, via UPI, no card)
+Credits ≠ GPU: request quota first. Console → Service Quotas → EC2 → 
+"Running On-Demand G and VT instances" → raise to 8 (approves minutes–~48
+h).
+After approval: launch g5.xlarge (A10G 24 GB) or g4dn.xlarge (T4), AMI Deep
+Learning OSS Nvidia Ubuntu 22.04, 100 GB disk → SSH → upload zip → run one-
+click. Full film ≈ $5–6. Stop the instance when done.
+Near-free + fast (no card, UPI)
+GODSHAND — GPU Proof Run (Lightning L4 — kit's native home)
+2
+
+===== PAGE 3/3 =====
+Krutrim — top up ~₹300 via UPI, A100 ₹189/hr → proof ≈₹100–150. Free
+credits gone (₹0).
+Ruled out (with the trap that killed each)
+Azure — $200 trial needs a card + GPU quota-blocked on trial. ⚠️ later
+Paperspace free — M4000 8 GB (too little VRAM); A100/H100 need $39/mo +
+card. ❌
+Saturn — restricted network blocks HF downloads. Cyfuture — ₹100 +
+inference-only, not a VM. ❌
+Modal/Cerebrium/Vast/Intel Tiber — GPUs card-gated. Google $300/Oracle
+— card + GPU blocked. E2E — hidden IP add-on charge. HF ZeroGPU —
+minutes/day. ❌
+GODSHAND — GPU Proof Run (Lightning L4 — kit's native home)
+3

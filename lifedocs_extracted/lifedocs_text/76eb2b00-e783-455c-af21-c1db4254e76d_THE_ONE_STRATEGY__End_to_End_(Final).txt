@@ -1,0 +1,134 @@
+
+===== PAGE 1/5 =====
+🧭
+THE ONE STRATEGY — End to
+End (Final)
+🧭Your whole plan as a checklist. Start at Step 1 and go down. Do not jump
+ahead — each step unlocks the next. Check off boxes as you go.
+The plan in one line
+Make 1 clip on the path that already works → use it to earn + grow + demo →
+verify the new pieces for the reel series → hit breakeven → sell the kit.
+When the first rupee (honest)
+Sample ready: ~1 day — render one clip on the proven single-character path;
+launch it as a Save Version → Commit so power cuts don't block it (it runs on
+Kaggle's servers, not your machine).
+First paid rupee: a few days to ~1 week after the sample exists — gated on 
+daily warm DMs, not compute.
+Convergence ₹499: listable today; a same-day-possible wildcard with
+unproven demand.
+The gate is outreach, not rendering. Parallel commits make more clips at
+once (for volume + the reel series) but don't speed up the first single clip. The
+weekly ceiling stays ~30 GPU-hrs no matter how many T4s.
+PART 1 — Get a sellable sample (two tracks)
+The kit already works on the single-character path — you have a proven render.
+So you do NOT wait on the test to start earning. Run two tracks: Track A gets
+THE ONE STRATEGY — End to End (Final)
+1
+
+===== PAGE 2/5 =====
+you a sample now; Track B verifies the new pieces for the reel series.
+Track A — for gigs (do this NOW, uses what already works)
+Step 1. Render one portfolio clip on the validated single-character path. No
+narration voice needed — for a music/lyric-video gig, the client's song is the
+audio. This is the path that already produced a finished render, so it should work
+today.
+Step 2. That clip is your gig sample. Go straight to Part 2 and start earning —
+don't wait for Track B.
+Track B — for the reel series + voiceover (verify the surgical
+pieces)
+This only gates the saga reel series (needs multiple characters) and any gig
+where you'd use spoken narration. It is NOT blocking your first rupee.
+Step 3. On Kaggle (one account only — multi-accounting = permanent ban),
+upload the patched notebook, paste a STORY_YAML, and run the multi-character
+test.
+Step 4. Check three things: (a) faces stay consistent, (b) nothing melts, (c) the
+voice actually speaks the line: s. If the voice is silent, send me src/render_motion.py
+and I'll wire it, then re-run.
+Step 5. Once it's clean, render Plastic Hearts as clip 1 of the saga series.
+PART 2 — Earn rent money (start the day the sample is
+done)
+Goal: first paying customers. This pays your bills while everything else grows.
+Step 6. Pick ONE niche: music/lyric videos for indie artists, OR short cinematic
+ads. (Both hide the lip-sync weakness.)
+Step 7. Post a fixed-price gig (one flat price, 3-day delivery) on Fiverr and
+Upwork. Use your Plastic Hearts clip as the sample.
+THE ONE STRATEGY — End to End (Final)
+2
+
+===== PAGE 3/5 =====
+Step 8. Set up how you get paid: UPI to start, or Topmate / Razorpay /
+Gumroad. (Skip Instamojo.)
+Step 9. List Convergence at ₹499 today. It sells on its own — could be your
+first rupee.
+Step 10. Every day, send 10 warm DMs to people who just posted needing a
+video (indie musicians, real-estate agents, small businesses). This is where the
+first rupee actually comes from — not the listings.
+Step 11. Deliver each order fast. Save every finished clip — you'll reuse it in
+Part 3.
+PART 3 — Grow an audience (runs at the same time as
+Part 2)
+Goal: turn the same clips into a following that sends you more customers. Same
+renders, no extra work.
+Step 12. Post your saga clips as a numbered series ("The Confession, Part
+1…"), 3–4 times a week.
+Step 13. Post to YouTube Shorts first (the only India ad lane), and also 
+Instagram Reels for reach.
+Step 14. End every clip with a hook: "follow for the next part," "full saga in
+bio," and "made with my own AI kit → DM me." (That last line sends people to
+your Part 2 gig.)
+Step 15. Don't chase views for money — India has no per-view payout. Earn
+from affiliate links + your own products instead.
+Step 16. Judge this over 30 clips, not 3. It builds slowly. That's normal.
+PART 4 — Sell the kit (only after breakeven)
+Goal: turn the tool itself into income. Enter this ONLY once ~3–5 gigs have
+covered your monthly costs.
+THE ONE STRATEGY — End to End (Final)
+3
+
+===== PAGE 4/5 =====
+Step 17. Stop taking new gig work. This is the trap — if you don't freeze, gigs
+eat all your time and the kit never ships.
+Step 18. Finish the 2 fixes that make the kit buyer-ready: (1) auto-set the shot
+count, (2) wire the voice permanently. Then buyers only edit YAML + drop in
+faces.
+Step 19. Launch the products:
+Product
+Price
+When
+Convergence
+₹499
+Already live from Step 9
+GODSHAND kit
+set at launch
+After the 2 fixes
+SafeScreen
+₹1,999
+After the 2 fixes
+Solana project
+₹2,499
+After the 2 fixes
+Step 20. Use your Part 3 reels and Part 2 client work as the proof that sells the
+kit. (Do not sell api_money_bot.)
+Your daily routine (once Parts 2 & 3 are running)
+Send 10 warm DMs.
+Post or queue 1 reel.
+Deliver any open orders.
+Use your ~8–12 weekly renders: a few for paid gigs, the rest become reels.
+Things that will trip you up (read once)
+The test in Part 1 may show bugs — that's exactly why you test before selling.
+Most reels won't go viral. They still build slowly and bring in DMs.
+Reels are landscape by default; crop them vertical in CapCut for Shorts/Reels.
+Only ever use one Kaggle account.
+The other pages (details live here)
+Money Plan — niches, breakeven math, buyer list
+THE ONE STRATEGY — End to End (Final)
+4
+
+===== PAGE 5/5 =====
+Creator Guide — how the kit works
+The Saga — Reel Release Plan — the 10 clips, hooks, captions, YAML
+🧭Right now, your only job is Step 1 — cut one sample on the proven path.
+That alone unblocks your first rupee. The multi-character test (Track B)
+runs in parallel and only gates the reel series.
+THE ONE STRATEGY — End to End (Final)
+5

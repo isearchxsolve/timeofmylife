@@ -1,0 +1,243 @@
+
+===== PAGE 1/7 =====
+🧭
+GODSHAND Kit — Build Map &
+Source of Truth
+🟠Correction to my earlier note on this page — you were right. My first
+pass said "every file is byte-identical, nothing was lost." That was
+wrong, and I am fixing the record. The core rendering engine (all of 
+src/ , every workflow, run.py , the configs) is byte-for-byte identical in
+every build — that part is safe. But the builds are NOT all equal: two
+builds dropped whole features, and one build's launcher was silently 
+regressed to an inferior version. Your instinct that "we lost more than the
+folder" was correct.
+✅ What is safe (identical in every build)
+The actual engine never changed. These are byte-for-byte identical across
+FINAL_, TUNED_AK, and FINAL_AK:
+All of src/ ( render_motion.py , forge_character.py , voice_pass.py , score_gen.py , 
+stitch.py , postprocess.sh , …)
+All workflows/*.json , run.py , and every config_*.yaml / shots_*.json
+All character reference images in refs/<name>/face and /body
+Nothing about how your film actually renders was corrupted. The damage is only
+in the launchers, docs, and scaffolding that wrap the engine.
+⚠️ Feature audit — what was DROPPED or
+OVERRIDDEN (25 Jul 2026)
+Compared file-by-file by content hash, with packaging nesting normalized.
+GODSHAND Kit — Build Map & Source of Truth
+1
+
+===== PAGE 2/7 =====
+Feature
+FINAL_ (your
+Downloads)
+TUNED_AK
+FINAL_AK
+:--
+:-:
+:-:
+:-:
+NEW_STORY_TEMPLATE/ (author
+any new film)
+✅
+❌ dropped
+❌ dropped
+GODSHAND_ONECLICK.sh (main
+launcher)
+✅ full (10,565 B)
+❌ dropped
+⚠️ regressed
+(9,120 B)
+README_L4.md
+✅ full (3,437 B)
+❌ dropped
+⚠️ regressed
+(3,129 B)
+l4_model_setup.py (WAN 2.2
+downloader)
+✅
+❌ dropped
+✅
+notebooks/ (2 Kaggle
+notebooks)
+✅
+❌ dropped
+✅
+RUN_TUNED.sh (one-command
+tuned launcher)
+❌
+✅ only here
+❌
+🚨 The important one: the launcher was REGRESSED in
+FINAL_AK
+GODSHAND_ONECLICK.sh exists in two versions. The good one is in your Downloads
+(FINAL_). The FINAL_AK copy is 1,445 bytes smaller and was rewritten in a way
+that reintroduces the exact "wrong folder" behavior you have been fighting:
+Good version (FINAL_ / Downloads):
+Story is selectable — KIT_CONFIG picks any film (not just the confrontation).
+Characters are read dynamically from the config's character_forge.targets .
+Character photos are OPTIONAL — if kit/refs/<name>/face has images it uses
+them, otherwise it auto-forges a consistent face, logging the choice per
+character.
+GODSHAND_ANCHORS images are copied into kit/refs/ (the correct home).
+Explicitly states: "There is no kit/anchors/ folder — the real location is 
+kit/refs/<name>/ ."
+Regressed version (FINAL_AK):
+GODSHAND Kit — Build Map & Source of Truth
+2
+
+===== PAGE 3/7 =====
+Hardcoded to the confrontation film + "26 shots" — loses the any-story
+engine.
+Drops the per-character auto-forge detection.
+Reintroduces a phantom kit/anchors/ folder and dumps anchor images into 
+ComfyUI/input/ and the kit root — this is the stray-image / wrong-location
+behavior that caused the Spider-Man / Joker contamination.
+Its README_L4.md tells you to use the non-existent kit/anchors/ .
+➡️ Use the launcher and README from FINAL_ (Downloads). Do not use the
+FINAL_AK versions.
+✅ Which build to use (corrected)
+GODSHAND_FINAL_ in your Downloads is your MASTER build. It has the correct
+launcher, NEW_STORY_TEMPLATE/ , the notebooks, l4_model_setup.py , and the full README
+— everything, in its correct form.
+The only thing it lacks is RUN_TUNED.sh (one-command tuned launcher), and you do
+not strictly need it — its tuned values are already baked into 
+NEW_STORY_TEMPLATE/config_newstory.yaml ( denoise: 0.55 , codeformer_fidelity: 0.5 , 
+active_profile: lightning_l4 ). To also get the one-command launcher, copy it in:
+cp GODSHAND_TUNED_AK/RUN_TUNED.sh GODSHAND_FINAL/kit/
+Correction: I earlier told you to use TUNED_AK as the "richest" build. That was
+wrong — TUNED_AK actually dropped the launcher, l4_model_setup.py , the
+notebooks, and NEW_STORY_TEMPLATE/ . FINAL_ (Downloads) is the right master.
+🕷️ Root cause — why Spider-Man / Joker appeared as
+“jack” (the original question)
+Three things had to line up. All three are now confirmed in the code:
+1. Two stray images were sitting in jack’s staging folder.
+refs/jack/_inbox/jack_preface.jpg is a Spider-Man (Tobey Maguire) still; 
+refs/jack/_inbox/joker.png is a Joker still. _inbox/ is a “dump a pile of candidate
+GODSHAND Kit — Build Map & Source of Truth
+3
+
+===== PAGE 4/7 =====
+photos here” staging area that cull_photos.py is meant to sort into face/ and 
+body/ — but it was never run on jack, so the strays stayed.
+2. The reference loader reads recursively.
+comfy_client.py and render_motion.py
+collect refs with glob("refs/jack/**/*", recursive=True) — so they reach into 
+_inbox/ instead of reading only refs/jack/face/ .
+3. _inbox sorts first, and only the first 5 refs are used. An underscore sorts
+before letters, so the recursive list starts with the two _inbox images. The code
+keeps refs[:5] , so Spider-Man and Joker became jack’s top-two identity
+anchors, ahead of his real face.
+And the safety net failed too: the identity-check gate ( _identity_score ) uses the 
+same recursive glob, so it scored rendered frames against Spider-Man as if that
+were jack — it did not just miss the drift, it approved it.
+Net effect: the blueprint still was conditioned on Spider-Man/Joker → jack
+animated as Spider-Man → the QC gate rubber-stamped it.
+The fix
+Immediate (done):
+GODSHAND_MASTER.zip has every refs/*/_inbox/ folder deleted,
+so the recursive glob can only find real face/body images.
+Permanent (one-line, recommended): restrict the ref globs to the face/body
+folders, never the parent. In comfy_client.py , render_motion.py ( _identity_score ),
+and refs_for() , read refs/<char>/face/* (and /body/* ) instead of refs/<char>/**/* .
+Then even if junk lands in _inbox again, it can never reach a render.
+📁 Where the key things live (never search blind again)
+Main launcher (correct version):
+GODSHAND_ONECLICK.sh — in FINAL_ / your
+Downloads
+Tuned launcher:
+RUN_TUNED.sh — TUNED_AK only
+Model download:
+l4_model_setup.py
+Author a new film:
+NEW_STORY_TEMPLATE/ (two files: a shots JSON + a config
+YAML)
+GODSHAND Kit — Build Map & Source of Truth
+4
+
+===== PAGE 5/7 =====
+Confrontation story + render config:
+config_confrontation.yaml + 
+shots_confrontation.json
+Character images (real):
+refs/<name>/face/ and /body/ — cast: jack, julie, 
+kunal, kunal_40s, kunal_young, gunja, observer, original_identity
+The correct anchor location is kit/refs/<name>/ — there is NO kit/anchors/
+folder.
+Junk to delete:
+refs/<name>/_inbox/ — the stray Spider-Man / Joker / Scarlett
+placeholders live here. The clean design never reads from here.
+🎛️ Tuning baked into RUN_TUNED.sh
+kaggle_2xt4 profile (2× Tesla T4 — Kaggle has NO L4) · KIT_MOTION_DENOISE=0.55
+(motion freedom, was 0.25) · KIT_FLF2V_ENDFRAME=1 (shot-to-shot morph ON) · 
+KIT_FACE_ENHANCE=0 (skip plasticky face composite) · softened temporal denoise ·
+codeformer 0.9 → 0.5
+Renders 4 proof shots: confr_caught , confr_allblades , confr_dare , confr_dontouch .
+🔒 On the sandbox (why your originals were never at
+risk)
+I only ever held a read-only, throwaway copy of the kits you uploaded. I never had
+write access to your Kaggle kit, your datasets, or your machine. Any differences
+above already existed in the builds you sent me — I did not create them.
+🗒️ Change Log (newest first)
+25 Jul 2026, ~7:57 AM IST — Fixed the recurring L4 mistake — the proof
+render now targets Kaggle 2× Tesla T4, not L4 (which Niloy does not have).
+config_confrontation.yaml and NEW_STORY_TEMPLATE/config_newstory.yaml were both
+pinned to active_profile: lightning_l4 ; switched both to kaggle_2xt4 (num_gpus:
+2, Q8, xformers, 1280×720, rate ₹0). Added a KIT_PROFILE env override in 
+src/cfgutil.py so the hardware profile can be forced explicitly (prevents silent
+wrong-GPU runs). Rewrote RUN_TUNED.sh for Kaggle 2×T4 (sets 
+KIT_PROFILE=kaggle_2xt4 , removed the Lightning-only sudo shutdown billing step,
+replaced with a Kaggle 'Stop session' note). Verified no config points at L4
+GODSHAND Kit — Build Map & Source of Truth
+5
+
+===== PAGE 6/7 =====
+anymore; cfgutil.py passes py_compile . Reshipped GODSHAND_MASTER.zip (239
+files).
+25 Jul 2026, ~7:52 AM IST — Enforced “everything from the master folder.”
+Verified in code that every script roots to the master folder ( root = parent of 
+src/ ) and reads all inputs from there — story ( shots_file ), characters ( refs/ ),
+workflows, grade targets. The only outside doorways are the opt-in
+GODSHAND_ANCHORS launcher copy (copies INTO kit/refs/ ) and lipsync.py ’s lookup
+for the external LatentSync tool repo (not identity). Hardened preflight.py
+(already stage 1/10 of every run) to (a) print MASTER FOLDER: <root> and “all inputs
+read ONLY from this folder,” and (b) warn about any stray ref image outside 
+face/ body/ costume/ . Reshipped GODSHAND_MASTER.zip (239 files); py_compile clean.
+25 Jul 2026, ~7:48 AM IST — Applied the permanent code fix for the Spider-
+Man bug and reshipped GODSHAND_MASTER.zip (238 files). Patched 
+comfy_client.py._first_image() (the real render-conditioning leak — it fed the first
+image, which was the _inbox Spider-Man) and render_motion.py._identity_score()
+(the QC gate) to skip any underscore-prefixed staging folder ( _inbox ) while
+still reading face/ and body/ . Both files pass py_compile ; behaviourally proven
+— with junk dropped back into _inbox , the loader now picks 
+body/jack_body_0.jpg instead of _inbox/spiderman.jpg . Junk can no longer reach a
+render even if it reappears.
+25 Jul 2026, ~7:25 AM IST — Traced and documented the Spider-Man/Joker
+root cause in code: recursive ref glob ( refs/jack/**/* ) reaching into _inbox/ , 
+_inbox sorting first, refs[:5] keeping the strays, and the identity-check gate
+using the same contaminated glob so it approved the drift. Added the “why
+Spider-Man appeared” section plus the permanent one-line fix (glob 
+refs/<char>/face/* , not the parent).
+25 Jul 2026, ~7:22 AM IST — Built the clean master kit GODSHAND_MASTER.zip (237
+files) and delivered it to you as a download. Base = FINAL_ (correct full
+launcher, 10,565 B); added RUN_TUNED.sh ; removed every refs/*/_inbox/ folder
+(the stray Spider-Man / Joker / Scarlett images). Verified cast faces intact
+(jack 5, julie 5, kunal 7, observer 5) and NEW_STORY_TEMPLATE/ , l4_model_setup.py ,
+and the notebooks all present.
+25 Jul 2026, ~7:15 AM IST — Ran a full file-by-file audit (content hashes,
+nesting normalized). Corrected the earlier "nothing was lost" claim on this
+GODSHAND Kit — Build Map & Source of Truth
+6
+
+===== PAGE 7/7 =====
+page. Documented: NEW_STORY_TEMPLATE/ dropped from TUNED_AK & FINAL_AK;
+launcher dropped from TUNED_AK and regressed in FINAL_AK; 
+l4_model_setup.py and notebooks/ dropped from TUNED_AK; README_L4.md
+dropped from TUNED_AK and regressed in FINAL_AK; RUN_TUNED.sh only in
+TUNED_AK. Changed the recommended master build from TUNED_AK → 
+FINAL_ (Downloads).
+25 Jul 2026, ~7:00 AM IST — Created this page as the durable build map
+after the four kit builds were first compared.
+🔬GODSHAND Engine Audit — Code + Real Run Evidence (25 Jul 2026)
+📋Session Log — 25 Jul 2026, Evening (End-to-End Audit Completion)
+GODSHAND Kit — Build Map & Source of Truth
+7
